@@ -1,0 +1,205 @@
+body {
+  background-color: rgb(156, 171, 104);
+  font-family: cursive;
+  font-weight: bolder;
+  border: solid 5px;
+  border-color: rgb(29, 89, 29);
+  padding: 5em;
+  position: relative;
+  z-index: 0;
+
+}
+/* Styling for form */
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+}
+p:hover {
+  background-color: rgb(163, 83, 143);
+}
+
+label:nth-child(even),
+.name,
+.email {
+  color: rgb(42, 102, 130);
+}
+
+input[type="submit"] {
+  background-color: rgb(190, 182, 28);
+  border: 0;
+  color: rgb(18, 18, 18);
+  text-decoration-line: underline;
+  font-family: cursive;
+  font-weight: bolder;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+}
+input {
+  cursor: pointer;
+}
+/* Styling for artwork */
+.art-title {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 15px 0;
+  border: solid 5px rgb(29, 89, 29);
+
+}
+.flex-container1, .flex-container2, .flex-container3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: antiquewhite;
+  position: relative;
+
+}
+.flex-container1 > div {
+  background-color: rgb(42, 102, 130);
+  margin: 10px 5px 5px 10px;
+  padding: 85px 170px 85px 170px;
+  font-size: 50px;
+  z-index: 1;
+  position: relative;
+
+
+}
+
+.flex-container2 > div {
+  background-color: rgb(42, 102, 130);
+  margin: 5px 10px 5px 10px;
+  padding: 200px 547.5px 200px 547.5px;
+  font-size: 50px;
+  z-index: 1;
+  position: relative;
+
+}
+.flex-container3 > div {
+  background-color: rgb(190, 182, 28);
+  margin: 5px 10px 10px 10px;
+  padding: 20px 556.5px 20px 560.5px;
+  font-size: 20x;
+  z-index: 1;
+  position: relative;
+}
+
+.sml-cir1 {
+  background-color: rgb(163, 83, 143);
+  height: 55px;
+  width: 55px;
+  border-radius: 55px;
+  position: absolute;
+  z-index: 2;
+  top: 215px;
+  left: 13%;
+  text-align: center;
+  font-size: 40px;
+
+}
+.sml-cir2 {
+  background-color: rgb(163, 83, 143);
+  height: 55px;
+  width: 55px;
+  border-radius: 55px;
+  position: absolute;
+  z-index: 2;
+  top: 396px;
+  left: 13%;
+  font-size: 40px;
+  text-align: center;
+}
+.sml-cir3 {
+  background-color: rgb(163, 83, 143);
+  height: 55px;
+  width: 55px;
+  border-radius: 55px;
+  position: absolute;
+  z-index: 2;
+  top: 260px;
+  left: 42%;
+  text-align: center;
+  font-size: 40px;
+}
+.sml-cir4 {
+  background-color: rgb(190, 182, 28);
+  height: 55px;
+  width: 55px;
+  border-radius: 55px;
+  position: absolute;
+  z-index: 2;
+  top: 530px;
+  left: 22%;
+  text-align: center;
+  font-size: 40px;
+}
+.big-cir1 {
+  background-color: rgb(190, 182, 28);
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+  z-index: 2;
+  position: absolute;
+  top: 260px;
+  left: 22%;
+  text-align: center;
+  font-size: 40px;
+
+}
+.big-cir2 {
+  background-color: rgb(163, 83, 143);
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+  z-index: 2;
+  position: absolute;
+  top: 380px;
+  left: 32%;
+  text-align: center;
+  font-size: 40px;
+}
+.tri1 {
+  height: 0;
+  width: 0;
+  z-index: 3;
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  border-right: 200px solid transparent;
+  border-bottom: 570px solid rgb(29, 89, 29);
+  border-left: 200px solid transparent;
+  bottom: 165px;
+  left: 50%;
+
+}
+
+.tri2 {
+  height: 0;
+  width: 0;
+  z-index: 4;
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  border-right: 170px solid transparent;
+  border-bottom: 400px solid rgb(190, 182, 28);
+  border-left: 170px solid transparent;
+  bottom: 165px;
+  right: 9.75%;
+}
+.humans {
+  display: flex;
+  background-color: transparent;
+  position: absolute;
+  z-index:10;
+  bottom: 14%;
+  left: 10%;
+  z-index: 5;
+  
+}
+.human1 {
+  width: 60px;
+  height: 120px;
+  object-fit: cover;
+  z-index: 5;
+}

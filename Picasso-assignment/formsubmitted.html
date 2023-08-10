@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picasso-Order-Form</title>
+    <link rel="stylesheet" href="external.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Picasso Art Order Form</h1>
+      </header>
+    </div>
+    <p>
+      To purchase a digital copy of the artwork, please answer the following:
+    </p>
+    <form id="frmMain" action="picasso.html" target="_blank">
+      <div class="name" style="text-align: center">
+        <label for="fname">First Name</label><br />
+        <input id="txtfName" type="text" /><br />
+        <label for="lname">Last Name</label><br />
+        <input id="textlName" type="text" />
+      </div>
+      <div class="email" ; style="text-align: center">
+        <label for="email">Email Address</label><br />
+        <input id="txtEmail" type="email" />
+      </div>
+      <p>
+        Optional: What is your preferred art subject? <br />
+        Your participation is appreciatted.
+      </p>
+      <div classs="radioButton">
+        <input type="radio" id="subject1" name="fav_subject" value="person" />
+        <label for="person">Person</label><br />
+        <input type="radio" id="subject2" name="fav_subject" value="animal" />
+        <label for="animal">Animal</label><br />
+        <input
+          type="radio"
+          id="subject3"
+          name="fav_subject"
+          value="landscape"
+        />
+        <label for="landscape">Landscape</label><br />
+        <input type="radio" id="subject4" name="fav_subject" value="other" />
+        <label for="other">Other</label>
+        <input type="text" name="other_subject" />
+        <br /><br />
+      </div>
+      <div style="text-align: center">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
